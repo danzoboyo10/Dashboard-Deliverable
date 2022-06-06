@@ -1,0 +1,51 @@
+
+  
+  html {
+    background: var(--yankees-blue);
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "sideBar reviews averageRating sentimentAnalysis"
+    "sideBar websiteVisitors websiteVisitors websiteVisitors"
+    "sideBar websiteVisitors websiteVisitors websiteVisitors"
+    "sideBar websiteVisitors websiteVisitors websiteVisitors";
+    
+    grid-gap: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: rgba(249, 242, 242, 0.956);
+    height: 90vh;
+  }
+  
+  .sideBar {
+      padding-left: 10px;
+      grid-area: sideBar;
+      background: rgb(219, 213, 213);
+  }
+  .reviews {
+      grid-area: reviews;
+      background: rgb(219, 213, 213);
+
+  }
+  .averageRating {
+      grid-area: averageRating;
+      background: rgb(219, 213, 213);
+
+  }
+  .sentimentAnalysis {
+      grid-area: sentimentAnalysis;
+      background: rgb(219, 213, 213);
+
+  }
+  .websiteVisitors {
+      grid-area: websiteVisitors;
+      background: rgb(219, 213, 213);
+
+  }
+  
